@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "module": "ES6",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "strictNullChecks": true,
+    "target": "ES2016",
+    "sourceMap": false,
+    "inlineSourceMap": false,
+    "outDir": "./dist",
+    "baseUrl": "./src",
+    "incremental": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "declarationDir": "dist",
+  }
+}
