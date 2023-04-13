@@ -7,6 +7,12 @@
 npm i vnbankqr --save
 ```
 
+Import vào dự án 
+
+```
+import {VNBankQR, Currency, Provider, AdditionData, Transaction, Consumer} from 'vnbankqr'; 
+```
+
 ## Sử dụng
 ### Bước 1: Khởi tạo đối tượng Consumer
 Consumer lưu trữ các thông tin liên quan đến ngân hàng, tài khoản ngân hàng, số tiền và nội dung chuyển khoản.
